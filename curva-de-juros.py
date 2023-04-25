@@ -68,5 +68,5 @@ dfDDIDI1 = dfDDIDI1.replace(',', '.', regex = True)
 dfDDIDI1[['AjAntDDI', 'AjAtualDDI', 'AjAntDI1', 'AjAtualDI1']] = dfDDIDI1[['AjAntDDI', 'AjAtualDDI', 'AjAntDI1', 'AjAtualDI1']].apply(pd.to_numeric)
 
 # Grava o dataframe como Planilha Excel
-dfDDIDI1.to_excel('/Users/solderagraziano/Downloads/fgv-quant-renda-fixa/dadosDDIDI1.xlsx', sheet_name = 'dados')
+dfDDIDI1.to_excel('', sheet_name = 'dados')
 
